@@ -1,0 +1,28 @@
+.heroContainer{
+  background-color: #f8f9fa;
+  padding: 5rem 0;
+  text-align: left;
+}
+
+.heroText{
+  color: #a80d0d;
+  font-size: bold;
+}
+
+.heroHeading{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.heroImage{
+  border-radius: 20%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+@media (max-with: 768px){
+  .heroTex{
+    font-size: 1.5rem;
+  }
+  .heroHeading{
+    font-size: 2rem;
+  }
+}
